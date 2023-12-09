@@ -22,7 +22,7 @@ function TopBar({ openModal }) {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center text-3xl"
+        className="flex flex-row items-center font-semibold text-gray-500 opacity-10 text-3xl"
       >
         Marshall Moise Hockey Camp
       </motion.div>

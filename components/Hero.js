@@ -6,13 +6,7 @@ import { useEffect, useState } from "react";
 
 function Hero({}) {
   const [text] = useTypewriter({
-    words: [
-      "Hi, I'm Marshall Moise",
-      "Professional Hockey Player",
-      "Coach",
-      "Hockey Enthusiast",
-      "Skills Devotee",
-    ],
+    words: ["Skating", "Stickhandling", "Shooting"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -29,9 +23,11 @@ function Hero({}) {
     }
   }, []);
   return (
-    <div className="h-screen pb-60 flex flex-col space-y-4 items-center justify-center text-center overflow-hidden z-40">
-      <BackgroundShape />
-      <div className="pb-30">
+    <div className="h-screen pb-60 flex flex-col space-y-4 items-center  text-center overflow-hidden z-40">
+      <div className="pt-60">
+        <BackgroundShape />
+      </div>
+      <div className="">
         <img
           src="/marshphoto.jpg"
           alt="marshphoto"
@@ -41,14 +37,43 @@ function Hero({}) {
       </div>
 
       <div>
-        <h2 className="text-xs md:text-lg uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className=" text-4xl  uppercase text-white-500 pb-2 tracking-[15px]">
           Marshalls Hockey Camp
         </h2>
-        <h1 className="text-2xl lg:text-6xl md:text-4xl font-semibold px-10">
-          <span className="mr-3 z-6">{text}</span>
-          <Cursor cursorColor="#b624e6" />
+        <h1 className="text-2xl lg:text-6xl md:text-4xl font-semibold px-10 pb-6">
+          <span className="mr-3 z-6 text-gray-500">{text}</span>
+          <Cursor cursorColor="#61f326" />
         </h1>
-        <div className="pt-5 z-20 relative"></div>
+        <div className="text-left pt-5 z-20 relative font-semibold p-4 bg-gray-700 rounded-md shadow-lg shadow-lime-700 text-gray-100 max-w-[60%] mx-auto">
+          <p className="pb-3">
+            I'm Marshall Moise. I played professionally as a forward for the
+            Savannah Ghost Pirates. Prior to my professional career, I played
+            NCAA Division 1 hockey from 2017 to 2022 after developing in the
+            United States Hockey League for two years.
+          </p>
+          <p className="pb-3">
+            {" "}
+            Though I am not playing professionally this year, my passion for the
+            sport remains. I am dedicated to helping others develop their skills
+            so they can fall in love wih the game as well. If your child is
+            interested in learning more about the game, please email the
+            following to
+            <span class="underline text-lg"> moisemarshall1@gmail.com:</span>
+          </p>
+          <div className="p-3">
+            <li>Childs name</li>
+            <li>Childs age</li>
+            <li>Childs experience level</li>
+          </div>
+          <p className="pb-3">
+            <span class="underline text-lg"> Important Information: </span>
+            this is not signing your child up for the camp. This is for me to
+            collect inquiries so i can see how many groups need to be made based
+            on age and skill level. When everything is scheduled, I will update
+            this website and send emails out accordingly. I am expecting to have
+            the camp up and running in the first quarter of 2024.
+          </p>
+        </div>
       </div>
     </div>
   );

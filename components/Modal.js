@@ -12,7 +12,7 @@ function Modal({ onClose }) {
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full  bg-gray-400 outline-none focus:outline-none">
             {/*header*/}
             <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-              <h3 className="text-3xl text-purple-200 font-semibold flex justify-center align-middle">
+              <h3 className="text-3xl text-lime-200 font-semibold flex justify-center align-middle">
                 Contact Information
               </h3>
             </div>
@@ -20,29 +20,13 @@ function Modal({ onClose }) {
             <div className="my-7">
               <div className="relative p-3 mx-10 flex-auto flex flex-row">
                 <EmailOutlinedIcon />
-                <p className="mx-5 text-purple-200">shayleeomeyer@gmail.com</p>
+                <p className="mx-5 text-lime-200">MoiseMarshall1@gmail.com</p>
               </div>
-              <div className="relative p-3  mx-10 flex-auto flex flex-row">
-                <LocalPhoneOutlinedIcon />
-                <p className="mx-5 text-purple-200">906-282-6127</p>
-              </div>
-              <li className="relative p-3  mx-10 flex-auto flex flex-row">
-                <FileOpenIcon />
-                <a
-                  download
-                  href="ShayleeMeyerResume.pdf"
-                  className="mx-5 text-purple-200 hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Download CV
-                </a>
-              </li>
             </div>
             {/*footer*/}
             <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
               <button
-                className="p-1 ml-auto bg-transparent border-0  opacity-2 float-right text-md text-purple-200 leading-none font-semibold outline-none focus:outline-none"
+                className="p-1 ml-auto bg-transparent border-0  opacity-2 float-right text-md text-lime-200 leading-none font-semibold outline-none focus:outline-none"
                 onClick={onClose}
               >
                 Close
