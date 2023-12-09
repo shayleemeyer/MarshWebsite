@@ -1,6 +1,6 @@
 import React from "react";
 
-const TopBar = () => {
+const TopBar = ({ openModal }) => {
   return (
     <div className="sticky top-0 bg-gray-800 text-white p-4 flex justify-between items-center">
       <div className="text-xl font-bold">Your Name</div>

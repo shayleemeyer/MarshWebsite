@@ -1,3 +1,4 @@
+// pages/index.js
 import React, { useState } from "react";
 import TopBar from "../components/TopBar";
 import ContactModal from "../components/ContactModal";
