@@ -4,6 +4,7 @@ import TopBar from "../components/TopBar";
 import Modal from "../components/Modal"; // Update the path accordingly
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Blank from "../components/Blank";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
       <TopBar openModal={openModal} />
       {isModalOpen && <Modal onClose={closeModal} />}
       <Hero />
+      <Blank />
     </div>
   );
 };
