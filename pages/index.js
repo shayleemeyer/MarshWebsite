@@ -1,7 +1,9 @@
 // pages/index.js
 import React, { useState } from "react";
 import TopBar from "../components/TopBar";
-import ContactModal from "../components/ContactModal";
+import Modal from "../components/Modal"; // Update the path accordingly
+import Head from "next/head";
+import Hero from "../components/Hero";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,9 +18,12 @@ const Home = () => {
 
   return (
     <div>
+      <Head>
+        <title>Marshall's Hockey Website</title>
+      </Head>
       <TopBar openModal={openModal} />
-      {isModalOpen && <ContactModal closeModal={closeModal} />}
-      <div className="p-4">{/* Your main content goes here */}</div>
+      {isModalOpen && <Modal onClose={closeModal} />}
+      <Hero />
     </div>
   );
 };
