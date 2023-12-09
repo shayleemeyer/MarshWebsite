@@ -23,7 +23,7 @@ function Hero({}) {
     }
   }, []);
   return (
-    <div className="h-screen pb-60 flex flex-col space-y-4 items-center  text-center overflow-hidden z-40">
+    <div className="pb-60 flex flex-col space-y-4 items-center  text-center overflow-hidden z-40">
       <div className="pt-60">
         <BackgroundShape />
       </div>
@@ -32,7 +32,7 @@ function Hero({}) {
           src="/marshphoto.jpg"
           alt="marshphoto"
           className="rounded-full"
-          style={{ width: "400px", height: "400px" }}
+          style={{ width: "300px", height: "300px" }}
         />
       </div>
 
