@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { SocialIcon } from "react-social-icons";
 import Modal from "./Modal"; // Update the path accordingly
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 
 function TopBar({ openModal }) {
   return (
