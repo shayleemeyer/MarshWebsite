@@ -60,8 +60,8 @@ function Hero({}) {
             to improve their game and take their skills to the next level.
             Whether your child is a beginner looking to grasp the basics or a
             seasoned player aiming to improve your overall techniques, this is
-            the place for you. If you or your child is interested in learning
-            more about the game, please email the following to
+            the place for you. If your child is interested in learning more
+            about the game, please email the following to
           </p>
           <p>
             <span class="underline text-lg"> moisemarshall1@gmail.com:</span>
