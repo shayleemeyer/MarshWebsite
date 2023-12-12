@@ -44,7 +44,7 @@ function Hero({}) {
           <span className="mr-3 z-6 text-gray-500">{text}</span>
           <Cursor cursorColor="#61f326" />
         </h1>
-        <div className="text-left pt-5 z-20 relative font-semibold p-4 bg-gray-700 rounded-md shadow-lg shadow-lime-700 text-gray-100 max-w-[60%] mx-auto">
+        <div className="text-left pt-5 z-20 relative font-semibold p-4 bg-gray-700 rounded-md shadow-lg shadow-lime-700 text-gray-100 md:max-w-[60%] max-w-[80%] mx-auto">
           <p className="pb-3">
             I'm Marshall Moise. I played professional hockey as a forward for
             the Savannah Ghost Pirates. Prior to my professional career, I
