@@ -46,18 +46,24 @@ function Hero({}) {
         </h1>
         <div className="text-left pt-5 z-20 relative font-semibold p-4 bg-gray-700 rounded-md shadow-lg shadow-lime-700 text-gray-100 max-w-[60%] mx-auto">
           <p className="pb-3">
-            I'm Marshall Moise. I played professionally as a forward for the
-            Savannah Ghost Pirates. Prior to my professional career, I played
-            NCAA Division 1 hockey from 2017 to 2022 after developing in the
-            United States Hockey League for two years.
+            I'm Marshall Moise. I played professional hockey as a forward for
+            the Savannah Ghost Pirates. Prior to my professional career, I
+            played NCAA Division 1 hockey from 2017 to 2022 after developing in
+            the United States Hockey League for two years.
           </p>
           <p className="pb-3">
             {" "}
             Though I am not playing professionally this year, my passion for the
-            sport remains. I am dedicated to helping others develop their skills
-            so they can fall in love wih the game as well. If your child is
-            interested in learning more about the game, please email the
-            following to
+            sport remains. I am dedicated to helping others develop there skills
+            so they can fall in love with the game as well. I'd like to open
+            this camp to players of all skill levels (ages 6-18) who are eager
+            to improve their game and take their skills to the next level.
+            Whether you're a beginner looking to grasp the basics or a seasoned
+            player aiming to improve your overall techniques, this is the place
+            for you. If your child is interested in learning more about the
+            game, please email the following to
+          </p>
+          <p>
             <span class="underline text-lg"> moisemarshall1@gmail.com:</span>
           </p>
           <div className="p-3">
