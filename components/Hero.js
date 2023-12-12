@@ -58,10 +58,10 @@ function Hero({}) {
             so they can fall in love with the game as well. I'd like to open
             this camp to players of all skill levels (ages 6-18) who are eager
             to improve their game and take their skills to the next level.
-            Whether you're a beginner looking to grasp the basics or a seasoned
-            player aiming to improve your overall techniques, this is the place
-            for you. If your child is interested in learning more about the
-            game, please email the following to
+            Whether your child is a beginner looking to grasp the basics or a
+            seasoned player aiming to improve your overall techniques, this is
+            the place for you. If you or your child is interested in learning
+            more about the game, please email the following to
           </p>
           <p>
             <span class="underline text-lg"> moisemarshall1@gmail.com:</span>
